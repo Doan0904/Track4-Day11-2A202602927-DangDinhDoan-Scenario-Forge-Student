@@ -1,0 +1,95 @@
+{
+ "method": "Chromium / Playwright; original viewer/index.html, unchanged SimCore; paused at event frame",
+ "shots": [
+  {
+   "file": "bus_bypass.png",
+   "source": "evidence/viewer.json",
+   "run_id": "B-01",
+   "time": 12.8,
+   "events": [
+    {
+     "t": 12.8,
+     "f": 256,
+     "a": "ego",
+     "b": "C2",
+     "kind": "contact",
+     "x": 93.54323674460232,
+     "z": 2.3331637583179305,
+     "fake": false
+    }
+   ],
+   "readout": "kiểu\nlách qua xe buýt\nchính sách của bạn\nva chạm xe cắt làn 12,8 s\nchính sách gốc\nkhông va chạm\nmặt đường\nướt (μ 0,5)\nkhe chấp nhận khi cắt làn\n9,7 m\nngười đi bộ ngó qua xe buýt\nkhông",
+   "sha256": "054ec66861308e8388d4e442aaf455351d800fcaf151c7909189e99eca369cd3"
+  },
+  {
+   "file": "crosswalk_block.png",
+   "source": "evidence/viewer.json",
+   "run_id": "C-01",
+   "time": 19.900000000000002,
+   "events": [
+    {
+     "t": 19.900000000000002,
+     "f": 398,
+     "a": "ego",
+     "b": "P1",
+     "kind": "block",
+     "x": 121.61398279551648,
+     "z": 2.597813476699546,
+     "fake": false
+    }
+   ],
+   "readout": "kiểu\nchặn lối người đi bộ\nchính sách của bạn\nchặn lối người đi bộ 19,9 s\nchính sách gốc\nchặn lối 19,9 s\nmặt đường\nướt (μ 0,5)\nkhe chấp nhận khi cắt làn\n15,6 m\nngười đi bộ ngó qua xe buýt\ncó",
+   "sha256": "4a3e5ac09ff780857ff754c25b9bbed44b734edb39755ee32417e7a0707963ef"
+  },
+  {
+   "file": "replay_only.png",
+   "source": "evidence/viewer.json",
+   "run_id": "R-01",
+   "time": 16.400000000000002,
+   "events": [
+    {
+     "t": 16.400000000000002,
+     "f": 328,
+     "a": "ego",
+     "b": "TG",
+     "kind": "contact",
+     "x": 110.18270776910805,
+     "z": 1.75,
+     "fake": true
+    }
+   ],
+   "readout": "kiểu\nchỉ va chạm khi phát lại log\nchính sách của bạn\nva chạm xe bám đuôi 16,4 s\nchính sách gốc\nva chạm 16,4 s\nmặt đường\nướt (μ 0,5)\nkhe chấp nhận khi cắt làn\n8,4 m\nngười đi bộ ngó qua xe buýt\nkhông",
+   "sha256": "e14b254d0771be9338f3e0aac3493a21125f9fad54d6926459792cc4c17e4ab1"
+  },
+  {
+   "file": "fix_ghost.png",
+   "source": "evidence/viewer_comparison.json",
+   "run_id": "FIX-B-01",
+   "time": 12.8,
+   "events": [],
+   "readout": "kiểu\nlách qua xe buýt\nchính sách của bạn\nkhông va chạm\nchính sách gốc\nva chạm 12,8 s\nmặt đường\nướt (μ 0,5)\nkhe chấp nhận khi cắt làn\n9,7 m\nngười đi bộ ngó qua xe buýt\nkhông",
+   "sha256": "440358d7a964ee19b20844e5bf3ada4be694a522829b4d433ef250b79ae4620c"
+  },
+  {
+   "file": "hazard_crossing.png",
+   "source": "hazard.json",
+   "run_id": null,
+   "time": 20.5,
+   "events": [
+    {
+     "t": 20.5,
+     "f": 410,
+     "a": "ego",
+     "b": "H0",
+     "kind": "contact",
+     "x": 163.81721823641135,
+     "z": 2.324999999999995,
+     "fake": false
+    }
+   ],
+   "readout": "planner\nva chạm người băng ngang · 20,5 s\nplanner gốc\nva chạm người băng ngang · 20,5 s\nva chạm giữa xe khác\nkhông\ntốc độ xe ta lúc này\n26 km/h\nrắc rối đang có\n1 / 4",
+   "sha256": "52d61d78a1d0d0030d543f3cf0f36813e185bf2b932ee3182df38982fe2202ea"
+  }
+ ],
+ "studio_roundtrip_equal": true
+}

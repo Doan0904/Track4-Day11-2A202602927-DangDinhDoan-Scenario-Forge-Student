@@ -1,0 +1,33 @@
+{
+ "format": "avsim-viewer/1",
+ "title": "202602927 · chosen policy / baseline ghost · source B-01",
+ "policy": {
+  "cutinLat": 3.0
+ },
+ "baseline_policy": {},
+ "runs": [
+  {
+   "id": "FIX-B-01",
+   "label": "bus_bypass",
+   "outcome": "safe",
+   "others": "reactive",
+   "policy": null,
+   "params": {
+    "cutT0": 9.262378563020059,
+    "cutDur": 5.672113553847561,
+    "cutV": 15.888616679167464,
+    "cutDs": 5.597103489770522,
+    "pedT0": 11.147481787733364,
+    "pedV": 0.847380765756684,
+    "busGo": 12.69744417736152,
+    "tgT": 0.6382055470234792,
+    "cutGap": 9.653290390642784,
+    "pedGap": 3.8361770507899697,
+    "mu": 0.5,
+    "pedLook": 0.0,
+    "cutBrake": 0.0,
+    "civil": true
+   }
+  }
+ ]
+}

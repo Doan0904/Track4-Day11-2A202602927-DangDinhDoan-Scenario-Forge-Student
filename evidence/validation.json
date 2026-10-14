@@ -1,0 +1,55 @@
+{
+ "student": "Đặng Đỉnh Đoàn",
+ "student_id": "2A202602927",
+ "runner_mssv": "202602927",
+ "checked_at": "2026-10-15T01:26:48.468689+07:00",
+ "tests": {
+  "command": "python -m pytest -q",
+  "result": ".........................................                                [100%]\n41 passed in 41.75s"
+ },
+ "pipeline": {
+  "commands": [
+   "python run_all.py all",
+   "python run_all.py mine hazard.json",
+   "python run_all.py mc"
+  ],
+  "quick": false,
+  "town": "B",
+  "required_files": [
+   "meta",
+   "world",
+   "replay",
+   "mc",
+   "hunt",
+   "cloud",
+   "estimate",
+   "fix",
+   "mine",
+   "viewer"
+  ],
+  "note": "hazard.json was added after the all process started, so mine was run separately at full budget; MC regenerated after exact Wilson endpoint correction."
+ },
+ "checks": {
+  "strict_json": true,
+  "full_budgets": true,
+  "wilson_matches_counts": true,
+  "policy_chosen_on_train": true,
+  "progress_constraint": true,
+  "hazard_valid": true,
+  "mine_matches_hazard": true,
+  "studio_roundtrip": true,
+  "screenshots_verified": 5,
+  "report_has_nine_answers": true,
+  "protected_starter_files_unchanged": true,
+  "git_diff_check": true
+ },
+ "source_sha256": {
+  "lab11/__init__.py": "17cee1e355ee476230e4daba28c4bf441046b32f00132b381f3c5488a93872ba",
+  "lab11/estimate.py": "4fabc9b6b5f5b988e7d1c3cf46b53463824f65502a4b2607495427f5ab094511",
+  "lab11/feasible.py": "8a041eff5d8f5116f50eb2d036d6d119094e3e88b22b8b3fb7bc07f6ec13cea4",
+  "lab11/metrics.py": "385540157e2a2babc062392fe2eca1473a345c644f5a4e176dc686071bb879a7",
+  "lab11/modes.py": "09a734482dfc30043b258b13b1f0340c145e72fcd8ed28aff5a3a5992b2b9217",
+  "lab11/policy.py": "a37723b9ab3830e9f025fa20711326345dae5ff73e76d9498859f381e66dd59b",
+  "lab11/search.py": "7d8a312ca108ef0b2baac01cd076673f1c2644d888b3711d11e017a4b29bb387"
+ }
+}
